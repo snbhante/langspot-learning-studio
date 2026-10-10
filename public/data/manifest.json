@@ -1,0 +1,30 @@
+{
+  "contentVersion": "1.0.0",
+  "schemaVersion": 1,
+  "application": "LangSpot",
+  "languageIds": [
+    "en",
+    "hi",
+    "zh",
+    "ja",
+    "ko",
+    "si",
+    "th",
+    "my",
+    "pi",
+    "sa"
+  ],
+  "datasets": [
+    "languages/en.json",
+    "languages/hi.json",
+    "languages/zh.json",
+    "languages/ja.json",
+    "languages/ko.json",
+    "languages/si.json",
+    "languages/th.json",
+    "languages/my.json",
+    "languages/pi.json",
+    "languages/sa.json"
+  ],
+  "generated": "2026-10-10"
+}

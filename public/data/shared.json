@@ -1,0 +1,102 @@
+{
+  "learningLevels": [
+    {
+      "id": "1",
+      "label": "Orientation"
+    },
+    {
+      "id": "2",
+      "label": "Beginner I"
+    },
+    {
+      "id": "3",
+      "label": "Beginner II"
+    },
+    {
+      "id": "4",
+      "label": "Elementary"
+    },
+    {
+      "id": "5",
+      "label": "Lower-intermediate"
+    },
+    {
+      "id": "6",
+      "label": "Intermediate"
+    },
+    {
+      "id": "7",
+      "label": "Upper-intermediate"
+    },
+    {
+      "id": "8",
+      "label": "Advanced reading"
+    },
+    {
+      "id": "9",
+      "label": "Specialist study"
+    },
+    {
+      "id": "10",
+      "label": "Independent use"
+    }
+  ],
+  "languageFamilies": [
+    {
+      "family": "Indo-European",
+      "members": [
+        "en",
+        "hi",
+        "si",
+        "pi",
+        "sa"
+      ],
+      "note": "This grouping is broad; Pāli is Middle Indo-Aryan, Sanskrit is Indo-Aryan, and English is Germanic."
+    },
+    {
+      "family": "Sino-Tibetan",
+      "members": [
+        "zh",
+        "my"
+      ],
+      "note": "Family-level grouping; Mandarin and Burmese are distinct languages with substantial internal histories."
+    },
+    {
+      "family": "Japonic",
+      "members": [
+        "ja"
+      ],
+      "note": "Japanese is classified within Japonic."
+    },
+    {
+      "family": "Koreanic",
+      "members": [
+        "ko"
+      ],
+      "note": "Korean is classified within Koreanic."
+    },
+    {
+      "family": "Kra-Dai",
+      "members": [
+        "th"
+      ],
+      "note": "Thai is commonly classified within Kra-Dai."
+    }
+  ],
+  "sources": [
+    {
+      "id": "w3c-web-speech",
+      "title": "Web Speech API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API",
+      "type": "technical documentation",
+      "license": "Documentation license applies; consult source terms"
+    },
+    {
+      "id": "next-static-export",
+      "title": "Next.js static exports",
+      "url": "https://nextjs.org/docs/app/guides/static-exports",
+      "type": "technical documentation",
+      "license": "Documentation license applies; consult source terms"
+    }
+  ]
+}

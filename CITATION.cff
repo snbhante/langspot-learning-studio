@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use LangSpot Learning Studio, please cite the repository and release version."
+title: "LangSpot Learning Studio"
+version: 0.0.0
+date-released: 2026-10-10
+license: MIT
+type: software

@@ -1,0 +1,12 @@
+LangSpot Learning Studio — Project Status
+Version: 0.0.0
+Stage: Initial working baseline; ongoing development
+Repository target: langspot-learning-studio
+
+The original Polyglot Learning Studio project has been preserved and renamed to LangSpot. This baseline includes ten language profiles, 120-day structured roadmap data per language, a learning workspace, local progress features, PWA assets, validation scripts, tests, and GitHub Pages workflows.
+
+Dependency updates: Next.js 15.5.27, React/React DOM 19.2.6, ESLint 10.12.0, typescript-eslint 8.71.1. The previous eslint-config-next dependency was removed. Next.js’ nested PostCSS is scoped-overridden to 8.5.29. The dev script no longer passes the unsupported --webpack flag; generated next-env.d.ts is ignored by ESLint. npm 12's install-script allowlist approves only sharp@0.34.5.
+
+Important: package-lock.json is intentionally not bundled because the build environment could not reach the npm registry. Run npm install locally to generate it, review npm audit, and commit the lockfile. Installation, audit, typecheck, lint, build and browser/device tests must pass before deployment.
+
+The application is incomplete by design at v0.0.0. The roadmap records are structured learning plans, not 1,200 fully authored and expert-reviewed chapters.
