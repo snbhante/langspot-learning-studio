@@ -1,0 +1,44 @@
+{
+  "name": "langspot-learning-studio",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Initial, offline-first multilingual learning studio for ten languages",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "validate:content": "node scripts/validate-content.mjs",
+    "validate:assets": "node scripts/validate-assets.mjs",
+    "check": "npm run validate:content && npm run validate:assets && npm run typecheck && npm run lint && npm test && npm run build",
+    "audit": "npm audit --audit-level=high"
+  },
+  "dependencies": {
+    "next": "15.5.27",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "eslint": "10.12.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.1"
+  },
+  "engines": {
+    "node": ">=20.19.0",
+    "npm": ">=12.0.0"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.29"
+    }
+  }
+}
