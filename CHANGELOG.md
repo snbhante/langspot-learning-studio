@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0 — PWA and account foundation
+- Expanded PWA manifest and service worker features, icons, shortcuts and screenshots.
+- Added local share-target inbox, audio file handler and protocol handler pages.
+- Added optional Supabase email/password auth and user profile setup documentation.
+- Improved responsive workspace navigation and voice preferences.
+
+# Changelog
+
 All notable changes to LangSpot Learning Studio are documented here.
 
 ## 0.0.0 — 2026-10-10

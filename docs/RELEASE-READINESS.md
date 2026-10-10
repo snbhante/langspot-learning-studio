@@ -1,4 +1,4 @@
-# Release readiness — v0.0.0
+# Release readiness — v0.1.0
 
 ## Status
 
@@ -21,3 +21,10 @@ Initial project baseline; not a production-completion claim.
 ## Not yet verified in this delivery environment
 
 The npm registry was unreachable, so the resolved lockfile, audit report, dependency install scripts, typecheck, lint, production build, and live GitHub Pages deployment could not be executed here. Do not describe those checks as passed until CI reports success.
+
+
+## v0.1.0 additional checks
+- [ ] Configure Supabase project, Auth redirect URLs, SQL profile table and public build variables before expecting hosted authentication to work.
+- [ ] Install and test the PWA in supported browsers; validate shortcuts, file handler, share target and protocol handler individually.
+- [ ] Review actual screenshots on desktop and mobile; current manifest screenshot files are illustrative SVG previews.
+- [ ] Run `npm install`, `npm audit`, `npm run typecheck`, `npm run lint`, `npm test`, and `npm run build` in a network-enabled environment.

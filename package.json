@@ -1,8 +1,8 @@
 {
   "name": "langspot-learning-studio",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
-  "description": "Initial, offline-first multilingual learning studio for ten languages",
+  "description": "Multilingual language learning studio with PWA features and optional Supabase accounts",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
@@ -19,7 +19,8 @@
   "dependencies": {
     "next": "15.5.27",
     "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react-dom": "19.2.6",
+    "@supabase/supabase-js": "^2.58.0"
   },
   "devDependencies": {
     "@types/node": "24.10.0",

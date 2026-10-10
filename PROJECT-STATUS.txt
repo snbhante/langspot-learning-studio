@@ -1,5 +1,5 @@
 LangSpot Learning Studio — Project Status
-Version: 0.0.0
+Version: 0.1.0
 Stage: Initial working baseline; ongoing development
 Repository target: langspot-learning-studio
 
@@ -9,4 +9,7 @@ Dependency updates: Next.js 15.5.27, React/React DOM 19.2.6, ESLint 10.12.0, typ
 
 Important: package-lock.json is intentionally not bundled because the build environment could not reach the npm registry. Run npm install locally to generate it, review npm audit, and commit the lockfile. Installation, audit, typecheck, lint, build and browser/device tests must pass before deployment.
 
-The application is incomplete by design at v0.0.0. The roadmap records are structured learning plans, not 1,200 fully authored and expert-reviewed chapters.
+The application is an initial editorial draft at v0.1.0. The roadmap records are structured learning plans, not 1,200 fully authored and expert-reviewed chapters.
+
+
+v0.1.0 adds PWA manifest/service-worker features, responsive workspace navigation, browser voice settings and optional Supabase authentication/profile support. See docs/PWA-FEATURES.md and docs/SUPABASE-AUTH-SETUP.md.

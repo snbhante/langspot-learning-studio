@@ -97,13 +97,13 @@ Do not force-push. First inspect `git status`, `git log --oneline --graph --deco
 npm run check
 git status
 git add .
-git commit -m "chore: baseline LangSpot v0.0.0"
-git tag -a v0.0.0 -m "LangSpot Learning Studio v0.0.0 baseline"
+git commit -m "chore: baseline LangSpot v0.1.0"
+git tag -a v0.1.0 -m "LangSpot Learning Studio v0.1.0 baseline"
 git push origin main
-git push origin v0.0.0
+git push origin v0.1.0
 ```
 
-Then open **GitHub → Releases → Draft a new release**, select tag `v0.0.0`, add release notes from `CHANGELOG.md`, and publish. Do not create the tag until all checks you require have passed.
+Then open **GitHub → Releases → Draft a new release**, select tag `v0.1.0`, add release notes from `CHANGELOG.md`, and publish. Do not create the tag until all checks you require have passed.
 
 ## Content architecture
 
@@ -165,3 +165,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Every language example should include so
 ## License
 
 Application code: MIT. Original starter learning notes: CC BY 4.0 unless a dataset record states otherwise. Third-party reference links are not redistributed content; the original rights holder's terms apply. See `LICENSE`, `docs/CONTENT-PROVENANCE.md` and `THIRD-PARTY-NOTICES.md`.
+
+
+## v0.1.0: PWA and account foundation
+- PWA manifest expanded with app shortcuts, screenshots, maskable/raster icons, audio file handler, custom protocol handlers and share target.
+- Service worker handles offline caching and local IndexedDB share inbox.
+- Responsive scrollable workspace navigation, improved dark-mode search border and browser voice availability/gender preference controls.
+- Optional Supabase email/password authentication and profile editing. Configure it using [Supabase Auth Setup](docs/SUPABASE-AUTH-SETUP.md).
+- See [PWA features and compatibility](docs/PWA-FEATURES.md) for browser limitations and [deployment guide](docs/DEPLOYMENT.md).
+
+
+বাংলায় Windows, Supabase Auth, GitHub Pages ও release-এর সম্পূর্ণ ধাপে ধাপে নির্দেশনার জন্য [v0.1.0 বাংলা Release Guide](docs/RELEASE-GUIDE-v0.1.0-BN.md) দেখুন.

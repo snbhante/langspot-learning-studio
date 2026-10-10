@@ -89,7 +89,10 @@ Open `http://localhost:3000`; stop the server with `Ctrl+C`.
 ```powershell
 git status
 git add package.json package-lock.json eslint.config.mjs docs
-git commit -m "chore: establish LangSpot v0.0.0 baseline"
+git commit -m "chore: establish LangSpot v0.1.0 baseline"
 ```
 
 Review `git status` before committing and ensure no `.env` files, `node_modules`, or build output are staged.
+
+
+For Supabase Auth and account preferences, configure `.env.local` using `.env.example` and follow `docs/SUPABASE-AUTH-SETUP.md`. The new PWA features and browser voice limitations are documented in `docs/PWA-FEATURES.md`.
